@@ -7,6 +7,8 @@
 - Data Parallelism Computation
 - Message Passing Programming
 - Process Creation and Management
+- Semaphore
+
 
 
 
