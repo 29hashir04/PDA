@@ -2,7 +2,7 @@ import asyncio
 import time
 from random import randint
 
-@asyncio.coroutine
+
 def start_state():
     print('start state called\n')
     input_value = randint(0,1)
