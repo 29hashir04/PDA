@@ -14,7 +14,6 @@ This repository contains examples of various parallel and concurrent programming
 
 Demonstrates the use of NumPy for efficient data parallel computation. The script performs element-wise addition on large arrays and measures execution time.
 
-![Data_Parallelism_Output](image-1.png)
 ### 2. **Do Something**
 **File:** `Do_something.py`
 
