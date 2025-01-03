@@ -5,6 +5,8 @@
 ## Description
 This repository contains examples of various parallel and concurrent programming techniques using Python. These examples demonstrate concepts such as data parallelism, multiprocessing, threading, message passing, task parallelism, and synchronization mechanisms.
 
+
+![Data_Parallelism_Output](image.png)
 ---
 
 ## Files and Explanation
