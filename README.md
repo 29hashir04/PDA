@@ -1,6 +1,6 @@
-# **Parallel and Concurrent Programming Repository**  
+# **Parallel and Distributed Programming **  
 
-This repository provides an extensive collection of Python examples and scripts that delve into various aspects of parallel, concurrent, and asynchronous programming. It serves as a practical guide to understanding core concepts such as multithreading, multiprocessing, message passing, and asynchronous programming with hands-on examples.  
+This repository provides an extensive collection of Python examples and scripts that delve into various aspects of parallel, distributed, and asynchronous programming. It serves as a practical guide to understanding core concepts such as multithreading, multiprocessing, message passing, and asynchronous programming with hands-on examples.  
 
 ---
 
@@ -13,7 +13,7 @@ This repository provides an extensive collection of Python examples and scripts 
 
 ---
 
-## **Chapter 1: Parallel and Concurrent Programming**  
+## **Chapter 1: Parallel and Distributed Programming**  
 This chapter introduces the foundational concepts of parallel and concurrent programming and demonstrates their implementation using Python libraries.  
 
 ### **Topics Covered**  
@@ -30,7 +30,7 @@ This chapter introduces the foundational concepts of parallel and concurrent pro
 
 ---
 
-## **Chapter 2: Multithreading Examples in Python**  
+## **Chapter 2: MultiThreading in Python**  
 This chapter delves into multithreading, highlighting thread synchronization techniques, locking mechanisms, and basic thread operations.  
 
 ### **Topics Covered**  
@@ -46,7 +46,7 @@ This chapter delves into multithreading, highlighting thread synchronization tec
 
 ---
 
-## **Chapter 3: Multiprocessing Examples in Python**  
+## **Chapter 3: Multiprocessing in Python**  
 Explore the power of multiprocessing in Python, including process creation, inter-process communication, and process pools.  
 
 ### **Topics Covered**  
