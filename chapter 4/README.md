@@ -1,6 +1,6 @@
 # Chapter 4:
 # Topics Covered:
-## Message Passing Interface
+## Message-Passing Interface
 ---
 ## Files Overview
 
