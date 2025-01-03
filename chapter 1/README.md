@@ -5,8 +5,6 @@
 ## Description
 This repository contains examples of various parallel and concurrent programming techniques using Python. These examples demonstrate concepts such as data parallelism, multiprocessing, threading, message passing, task parallelism, and synchronization mechanisms.
 
-
-![Data_Parallelism_Output](image.png)
 ---
 
 ## Files and Explanation
@@ -16,6 +14,7 @@ This repository contains examples of various parallel and concurrent programming
 
 Demonstrates the use of NumPy for efficient data parallel computation. The script performs element-wise addition on large arrays and measures execution time.
 
+![Data_Parallelism_Output](image-1.png)
 ### 2. **Do Something**
 **File:** `Do_something.py`
 
