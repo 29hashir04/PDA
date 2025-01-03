@@ -1,6 +1,6 @@
 # Chapter 2:
-### Topics Covered:
-# Multi-threading Examples in Python
+# Topics Covered:
+## Multi-Threading 
 
 This repository contains multiple examples of Python multi-threading, synchronization mechanisms, and concurrent programming. Below is an explanation of each file included in the codebase:
 
