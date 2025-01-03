@@ -1,9 +1,6 @@
 # Chapter 1:
-### Topics Covered:
-# Parallel and Concurrent Programming Examples
-
-## Description
-This repository contains examples of various parallel and concurrent programming techniques using Python. These examples demonstrate concepts such as data parallelism, multiprocessing, threading, message passing, task parallelism, and synchronization mechanisms.
+# Topics Covered:
+## Parallel and Concurrent Programming 
 
 ---
 
