@@ -1,68 +1,60 @@
 import asyncio
-import time
 from random import randint
 
-
-def start_state():
-    print('start state called\n')
-    input_value = randint(0,1)
-    time.sleep(1)
+async def start_state():
+    print('Start state called\n')
+    input_value = randint(0, 1)
+    await asyncio.sleep(1)  # Use asyncio.sleep for non-blocking delay
     if input_value == 0:
-        result = yield from state2(input_value)
+        result = await state2(input_value)
     else:
-        result = yield from state1(input_value)
-    print('Resume of Transition : \n start state calling' + result)
+        result = await state1(input_value)
+    print('Resume of Transition:\nStart state calling ' + result)
 
-def state1(transition_value):
-    output_value = 'State 1 with trasnition value = %s\n' % transition_value
-    input_value = randint(0,1)
-    time.sleep(1)
+async def state1(transition_value):
+    output_value = f'State 1 with transition value = {transition_value}\n'
+    input_value = randint(0, 1)
+    await asyncio.sleep(1)  # Use asyncio.sleep for non-blocking delay
 
     print('...evaluating...')
     if input_value == 0:
-        result = yield from state3(input_value)
+        result = await state3(input_value)
     else:
-        result = yield from state2(input_value)
+        result = await state2(input_value)
 
-    return output_value + 'State 1 calling %s' % result
+    return output_value + f'State 1 calling {result}'
 
-def state2(transition_value):
-    output_value = 'state 2 with transition value = %s\n' % transition_value
-    input_value = randint(0,1)
-    time.sleep(1)
+async def state2(transition_value):
+    output_value = f'State 2 with transition value = {transition_value}\n'
+    input_value = randint(0, 1)
+    await asyncio.sleep(1)  # Use asyncio.sleep for non-blocking delay
     print('....evaluating....')
     if input_value == 0:
-        result = yield from state1(input_value)
+        result = await state1(input_value)
     else:
-        result = yield from state3(input_value)
-    
-    return output_value + 'state 2 calling %s' % result
+        result = await state3(input_value)
 
-def state3(transition_value):
-    output_value = 'State 3 with transition value = %s\n' % transition_value
-    input_value = randint(0,1)
-    time.sleep(1)
+    return output_value + f'State 2 calling {result}'
+
+async def state3(transition_value):
+    output_value = f'State 3 with transition value = {transition_value}\n'
+    input_value = randint(0, 1)
+    await asyncio.sleep(1)  # Use asyncio.sleep for non-blocking delay
 
     print('....evaluating....')
     if input_value == 0:
-        result = yield from state1(input_value)
+        result = await state1(input_value)
     else:
-        result = yield from end_state(input_value)
-    
-    return output_value + 'State 3 calling %s' % result
+        result = await end_state(input_value)
 
-def end_state(transition_value):
-    output_value = 'End State with transition value = %s\n' % transition_value
+    return output_value + f'State 3 calling {result}'
+
+async def end_state(transition_value):
+    output_value = f'End State with transition value = {transition_value}\n'
     print('....Stop Computation....')
 
     return output_value
 
 if __name__ == '__main__':
-    print('Finite State Machine simulatio9n with asyncio coroutine')
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(start_state())
-
-
-
-
-    
+    print('Finite State Machine simulation with asyncio coroutine')
+    asyncio.run(start_state())  # Modern method to run the asyncio event loop

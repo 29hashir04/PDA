@@ -9,7 +9,7 @@
 ### 1. `asyncio_coroutine.py`
 **Description**: Simulates a finite state machine using Python's `asyncio` library.  
 **Features**: Implements states (`start_state`, `state1`, `state2`, `state3`, `end_state`) with asynchronous transitions using `yield from`.  
-
+![asyncio_coroutine](image-3.png)
 
 
 ### 2. `asyncio_event_looop.py`
