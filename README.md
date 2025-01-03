@@ -93,21 +93,3 @@ Learn about asynchronous programming in Python using `asyncio`, including task s
 3. **`HeavyComputationSimulation.py`**: Compares sequential, thread pool, and process pool execution.  
 4. **`ThreadPoolExecutor.py`**: Demonstrates task execution using `ThreadPoolExecutor`.  
 
----
-
-## **Usage**  
-Clone the repository and explore the chapters to understand various programming paradigms. Each script is self-contained with detailed comments for ease of understanding.  
-
-```bash  
-git clone https://github.com/your-repository-link  
-cd your-repository-link  
-```  
-
----
-
-## **Contributing**  
-Contributions are welcome! If you have additional examples or optimizations, feel free to create a pull request.  
-
----
-
-This README provides an overarching structure for the repository while making navigation intuitive for users. Let me know if you’d like any adjustments!
