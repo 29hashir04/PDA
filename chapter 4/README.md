@@ -11,6 +11,7 @@
 - Process `1` sends a string to process `8`.
 - Processes `4` and `8` receive and print the respective messages.  
 
+![Avoiding_DLock](image-1.png)
 
 ### 2. `Collective_Communication_using_Broadcast.py`
 **Description**: Illustrates collective communication using the `bcast` function.  
@@ -18,6 +19,7 @@
 - Process `0` shares a variable (`variable_to_share`) with all other processes.
 - All processes print the shared variable after broadcasting.  
 
+![CC_BroadCast](image-2.png)
 
 ### 3. `Collective_Communication_Using_gather_funcation.py`
 **Description**: Shows the use of the `gather` function for collective communication.  
@@ -32,6 +34,7 @@
 - Process `0` initializes an array and distributes its elements among all processes.
 - Each process prints the element it received.  
 
+![CC_Scatter](image-3.png)
 
 ### 5. `Point-to-Point Implementation.py`
 **Description**: Provides another example of point-to-point communication with distinct messages and processes.  
@@ -40,3 +43,4 @@
 - Process `1` sends a string to process `8`.
 - Processes `4` and `8` receive and print the respective messages.  
 
+![P-P](image.png)
