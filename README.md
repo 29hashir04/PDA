@@ -1,4 +1,4 @@
-# **Parallel and Distributed Programming **  
+# **Parallel and Distributed Programming**  
 
 This repository provides an extensive collection of Python examples and scripts that delve into various aspects of parallel, distributed, and asynchronous programming. It serves as a practical guide to understanding core concepts such as multithreading, multiprocessing, message passing, and asynchronous programming with hands-on examples.  
 
