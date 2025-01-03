@@ -1,6 +1,6 @@
 # Chapter 3:
-### Topics Covered:
-# Multiprocessing Examples in Python
+# Topics Covered:
+## Multiprocessing Examples in Python
 
 ---
 
